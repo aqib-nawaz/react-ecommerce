@@ -1,0 +1,46 @@
+.about-container{
+    height: 100vh;
+}
+.about-banner{
+    margin-top: 4.7rem;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.content{
+    margin-top: .625rem;
+    padding: 2.25rem;
+    
+}
+.content img{
+    border-radius: 40px;
+}
+.content .about-text{
+    display: flex;
+    flex-direction: column;
+    font-size: 17px;
+    color: rgb(105, 105, 105);
+    font-weight:400;
+}
+.content .about-text h2{
+    font-size: 2.375rem;
+    text-align:center;
+}
+.content .about-text button{
+    margin-top: 10px;
+    align-self: center;
+    width:150px;
+    padding: .225rem;
+    font-weight:bold;
+    background-color: transparent;
+    border: 3px solid #41e0fd;
+    color: rgb(94, 94, 94);
+    font-size: 1.25rem;
+
+}
+.content .about-text button:hover{
+    background-color: #41e0fd;
+
+}

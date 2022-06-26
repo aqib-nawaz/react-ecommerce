@@ -1,0 +1,19 @@
+.container > .products-wrapper{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 6.25rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container > .products-wrapper  .men-products{
+    width: 100%;
+    display: flex;
+    margin-left: 1.625rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 2.25rem;
+
+}

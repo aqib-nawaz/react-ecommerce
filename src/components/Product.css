@@ -1,0 +1,25 @@
+.product-wrapper{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.product-wrapper .product-img img{
+    width: 25rem;
+    height: 25.875rem;
+}
+.product-wrapper .product-details{
+    width: 40.25rem;
+    padding: .625rem;
+}
+.product-wrapper .actions{
+    margin-top: 1.25rem;
+}
+.product-wrapper .actions button{
+    width: 150px;
+    padding: 8px;
+    margin: .3125rem;
+    font-size: 18px;
+    font-weight: bold;
+}

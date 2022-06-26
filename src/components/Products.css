@@ -1,0 +1,19 @@
+.container > .products-wrapper{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 6.25rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container > .products-wrapper > .products{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 2.25rem;
+
+}
